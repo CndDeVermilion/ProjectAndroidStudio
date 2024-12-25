@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Saat tombol ditekan -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/icon1" /> <!-- pressed -->
+
+    <!-- Saat tombol dalam fokus -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/icon2" /> <!-- focused -->
+
+    <!-- Saat tombol dalam keadaan hovered -->
+    <item android:state_hovered="true"
+        android:drawable="@drawable/icon3" /> <!-- hovered -->
+
+    <!-- Default -->
+    <item android:drawable="@drawable/icon1" /> <!-- default -->
+</selector>
